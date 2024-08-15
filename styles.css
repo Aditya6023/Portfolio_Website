@@ -302,3 +302,67 @@ button:hover, .button:hover {
     to { width: attr(data-skill); }
 }
 
+/* General mobile styles */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    .intro, .intro1, section {
+        padding: 50px 10px;
+    }
+
+    #matrix {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        opacity: 0.2; /* Increased opacity for better visibility */
+    }
+
+    .button {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .skills-content, .about-content {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .skill-row {
+        margin-bottom: 20px;
+    }
+
+    .project-card {
+        margin: 20px 5px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    header nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header nav ul li {
+        display: inline;
+        margin: 0 15px;
+    } 
+    .about-container, .skills-content {
+        flex-direction: column;
+    }
+}
