@@ -285,7 +285,7 @@ body{
 .image-bg{
     position: fixed;
     inset: 0;
-    background: url("Assets/Images/contact.jpeg") center/cover no-repeat;
+    background: url("contact.jpeg") center/cover no-repeat;
     z-index: -3;
     opacity: 0;
     transition: opacity 1.5s ease;
@@ -300,7 +300,7 @@ body{
 .image-bg1{
     position: fixed;
     inset: 0;
-    background: url("Assets/Images/about.jpeg") center/cover no-repeat;
+    background: url("about.jpeg") center/cover no-repeat;
     z-index: -3;
     opacity: 0;
     transition: opacity 1.5s ease;
@@ -322,7 +322,7 @@ body{
 .image-bg-project{
     position: fixed;
     inset: 0;
-    background: url("Assets/Images/case.jpeg") center/cover no-repeat;
+    background: url("case.jpeg") center/cover no-repeat;
     z-index: -3;
     opacity: 0;
     transition: opacity 1.5s ease;
@@ -662,7 +662,7 @@ body{
 .about-image-bg1{
     position: fixed;
     inset: 0;
-    background: url("Assets/Images/about.jpeg") center/cover no-repeat;
+    background: url("about.jpeg") center/cover no-repeat;
     z-index: -3;
     opacity: 0;
     transition: opacity 1.5s ease;
