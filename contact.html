@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio</title>
+
+<link rel="icon" href="Assets/Images/logo.png" sizes="32x32">
+<link rel="icon" href="Assets/Images/logo.png" sizes="16x16">
+<link rel="apple-touch-icon" href="Assets/Images/logo.png">
+
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">
+    <img src="Assets/Images/logo.png" alt="Sherlock Logo">
+    <span>Aditya Bhatnagar</span>
+</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Cases</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+
+<!-- VIDEO BACKGROUND -->
+<div class="video-bg">
+    <video id="bgVideo" autoplay muted playsinline>
+        <source src="Assets/Videos/contact.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!-- FALLBACK IMAGE -->
+<div class="image-bg contact-bg"></div>
+
+<div class="overlay"></div>
+
+
+<!-- HERO / CONTACT SECTION -->
+<section class="hero align-left">
+
+    <div class="hero-content">
+
+        <h1>Open a <span>Case File</span></h1>
+
+        <p>
+            Every mystery begins with a message.  
+            Describe your project and let us investigate.
+        </p>
+
+        <!-- CONTACT FORM -->
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea placeholder="Describe your case..." rows="5"></textarea>
+
+            <button class="btn">Send Case</button>
+
+        </form>
+
+    </div>
+
+</section>
+<section class="contact-info section align-left">
+
+    <div class="section-content">
+
+        <div class="contact-card">
+            <h2>Contact Me</h2>
+            <p>Reach out through any channel below.</p>
+
+            <div class="contact-item">
+                <span>📞 Phone</span>
+                <p>+91 89499-05356</p>
+            </div>
+
+            <div class="contact-item">
+                <span>📧 Email</span>
+                <p>aditya60bh@gmail.com</p>
+            </div>
+
+            <div class="contact-item">
+                <span>💻 GitHub</span>
+                <p>
+                    <a href="https://github.com/Aditya6023" target="_blank">
+                        github.com/yourusername
+                    </a>
+                </p>
+            </div>
+
+            <div class="contact-item">
+                <span>🔗 LinkedIn</span>
+                <p>
+                    <a href="https://www.linkedin.com/in/aditya-bhatanagar-67a233204/" target="_blank">
+                        linkedin.com/in/yourprofile
+                    </a>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sherlock Portfolio</title>
+
+<link rel="icon" href="Assets/Images/logo.png" sizes="32x32">
+<link rel="icon" href="Assets/Images/logo.png" sizes="16x16">
+<link rel="apple-touch-icon" href="Assets/Images/logo.png">
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">
+    <img src="Assets/Images/logo.png" alt="Sherlock Logo">
+    <span>BHATNAGAR</span>
+</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Cases</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+</nav>
+
+<!-- VIDEO BACKGROUND -->
+<div class="video-bg">
+    <video id="bgVideo" autoplay muted playsinline>
+        <source src="Assets/Videos/case.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!-- IMAGE FALLBACK -->
+<div class="image-bg-project"></div>
+
+<div class="overlay"></div>
+
+<!-- HERO -->
+<section class="hero align-center">
+    <div class="hero-content">
+        <h1>Case Files</h1>
+        <p>Every project begins with a mystery.</p>
+    </div>
+</section>
+
+<!-- PROJECT ARCHIVE -->
+<section class="section dark">
+
+    <h2>Investigation Archive</h2>
+
+    <div class="case-archive">
+
+        <div class="case-file">
+            <span class="case-number">CASE 001</span>
+            <h3>The Website Investigation</h3>
+            <p>Responsive modern web experience solved using HTML, CSS & JS.</p>
+            <button class="btn">Open File</button>
+        </div>
+
+        <div class="case-file">
+            <span class="case-number">CASE 002</span>
+            <h3>OSINT Tool: “Echo3-1”</h3>
+            <p>Developing an OSINT tool utilizing AI, machine learning,
+                 Face recognition and web scraping techniques to extract and analyse data 
+                 from different social media platforms for enhanced investigative insights on 
+                 user behaviour patterns.</p>
+            <button class="btn">Open File</button>
+        </div>
+
+        <div class="case-file">
+            <span class="case-number">CASE 003</span>
+            <h3>Number Plate Detection System</h3>
+            <p>Developed a real-time number plate detection system using OpenCV, 
+                Python, Machine Learning and Deep Learning for use in security applications.</p>
+            <button class="btn">Open File</button>
+        </div>
+
+        <div class="case-file">
+            <span class="case-number">CASE 004</span>
+            <h3>Movie Review Analyzer</h3>
+            <p>Built a sentiment analysis tool for IMDb movie reviews using the technologies of Python, 
+                Natural Language Processing, Beautiful Soup, Text Blob, Scikit-Learn</p>
+            <button class="btn">Open File</button>
+        </div>
+
+        <div class="case-file">
+            <span class="case-number">CASE 005</span>
+            <h3>Chess Bot with ML</h3>
+            <p>Designing and implementing a single‑player chess application with an AI 
+                opponent using rule‑based logic and interactive UI rendering.</p>
+            <button class="btn">Open File</button>
+        </div>
+
+        <div class="case-file">
+            <span class="case-number">CASE 006</span>
+            <h3>AI Image Editor</h3>
+            <p>Creating a client‑side image editing tool supporting dynamic filters and 
+                transformations using HTML5 Canvas and JavaScript.</p>
+            <button class="btn">Open File</button>
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
